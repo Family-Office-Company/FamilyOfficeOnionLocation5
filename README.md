@@ -30,15 +30,7 @@ You can find the Shopware 6 equivalent [here](https://github.com/Family-Office-C
 
 ## Usage
 
-Install and activate the plugin in your Shopware instance.
-
-```
-composer require family-office/onion-location5
-```
-
-```
-bin/console plugin:refresh && bin/console plugin:install FamilyOfficeOnionLocation5 --activate
-```
+Download the latest release [here](https://github.com/Family-Office-Company/FamilyOfficeOnionLocation5/releases/latest) and install it in your Shopware 5 instance.
 
 The only thing that's left to do for the plugin to work is to link your shops hidden service via the plugin configuration.
 
