@@ -22,19 +22,8 @@
   ],
   "require-dev": {
     "ergebnis/composer-normalize": "^2.15",
-    "ergebnis/phpstan-rules": "^0.15.3",
-    "phpstan/extension-installer": "^1.1",
-    "phpstan/phpstan": "^0.12.97",
-    "phpstan/phpstan-deprecation-rules": "^0.12.6",
-    "phpstan/phpstan-phpunit": "^0.12.22",
-    "phpstan/phpstan-strict-rules": "^0.12.11",
-    "phpstan/phpstan-symfony": "^0.12.43",
-    "psalm/plugin-phpunit": "^0.16.1",
-    "psalm/plugin-symfony": "^3.0",
     "roave/security-advisories": "dev-latest",
-    "symfony/thanks": "^1.2",
-    "symplify/easy-coding-standard": "^9.4",
-    "vimeo/psalm": "^4.9"
+    "symplify/easy-coding-standard": "^9.4"
   },
   "support": {
     "issues": "https://github.com/Family-Office-Company/FamilyOfficeOnionLocation5/issues"

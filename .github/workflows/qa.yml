@@ -3,43 +3,6 @@ name: Quality analysis
 on: [ push ]
 
 jobs:
-  phpstan:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 7.4
-          extensions: gd
-
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install dependencies
-        run: make install
-
-      - name: PHPStan Static Analysis
-        uses: php-actions/phpstan@v2
-
-  psalm:
-    name: Psalm
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 7.4
-          extensions: gd
-
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Install dependencies
-        run: make install
-
-      - name: Psalm
-        run: ./vendor/bin/psalm
-
   ecs:
     name: Easy coding standard
     runs-on: ubuntu-latest
