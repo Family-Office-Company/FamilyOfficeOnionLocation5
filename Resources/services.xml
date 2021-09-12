@@ -1,0 +1,15 @@
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="family_office_onion_location5.subscriber.template_registration"
+                 class="FamilyOfficeOnionLocation5\Subscriber\TemplateRegistration">
+            <argument>%family_office_onion_location5.plugin_dir%</argument>
+            <argument type="service" id="template"/>
+            <argument type="service" id="service_container"/>
+            <argument>%family_office_onion_location5.plugin_name%</argument>
+
+            <tag name="shopware.event_subscriber"/>
+        </service>
+    </services>
+</container>

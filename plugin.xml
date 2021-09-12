@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label>Onion Location</label>
+    <label lang="de">Onion Location</label>
+    <version>1.0.0</version>
+    <copyright>Ben Pesch</copyright>
+    <license>MIT</license>
+    <link>https://github.com/Family-Office-Company/FamilyOfficeOnionLocation5</link>
+    <author>Family Office</author>
+    <compatibility minVersion="5.7.2"/>
+    <changelog version="1.0.0">
+        <changes>
+            Initial Release
+        </changes>
+        <changes lang="de">
+            Erstveröffentlichung
+        </changes>
+    </changelog>
+    <description>
+        Implements a configurable Onion-Location meta tag into the frontend.
+    </description>
+    <description lang="de">
+        Implementiert einen konfigurierbaren Meta-Tag in das Frontend.
+    </description>
+</plugin>

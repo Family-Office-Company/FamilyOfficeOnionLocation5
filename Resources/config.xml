@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="false" type="text" scope="locale">
+            <name>onionLocation</name>
+            <label lang="en">Onion Location</label>
+            <label lang="de">Onion Location</label>
+            <description lang="en">Please provide your .onion hidden service link</description>
+            <description lang="de">Bitte tragen Sie den Link zu Ihrem .onion Hidden Service ein</description>
+        </element>
+    </elements>
+</config>
