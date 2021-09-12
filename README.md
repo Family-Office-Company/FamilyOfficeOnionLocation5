@@ -12,6 +12,8 @@ Customers are now notified that there is a hidden service available if they conn
 
 <img src="assets/onion_available.png" width="256px">
 
+You can find the Shopware 6 equivalent [here](https://github.com/Family-Office-Company/FamilyOfficeOnionLocation).
+
 ## Usage requirements
 
 <p float="left">
