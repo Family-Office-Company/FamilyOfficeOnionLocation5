@@ -12,7 +12,7 @@ Customers are now notified that there is a hidden service available if they conn
 
 <img src="assets/onion_available.png" width="256px">
 
-You can find the Shopware 6 equivalent [here](https://github.com/Family-Office-Company/FamilyOfficeOnionLocation).
+You can find the Shopware 6 equivalent [here](https://github.com/FamilyOfficeOrg/FamilyOfficeOnionLocation).
 
 ## Usage requirements
 
@@ -30,7 +30,7 @@ You can find the Shopware 6 equivalent [here](https://github.com/Family-Office-C
 
 ## Usage
 
-Download the latest release [here](https://github.com/Family-Office-Company/FamilyOfficeOnionLocation5/releases/latest) and install it in your Shopware 5 instance.
+Download the latest release [here](https://github.com/FamilyOfficeOrg/FamilyOfficeOnionLocation5/releases/latest) and install it in your Shopware 5 instance.
 
 The only thing that's left to do for the plugin to work is to link your shops hidden service via the plugin configuration.
 
@@ -39,7 +39,7 @@ The only thing that's left to do for the plugin to work is to link your shops hi
 Clone the project into your Shopware installation
 
 ```shell
-git clone git@github.com:Family-Office-Company/FamilyOfficeOnionLocation5.git
+git clone git@github.com:FamilyOfficeOrg/FamilyOfficeOnionLocation5.git
 ```
 
 ```shell

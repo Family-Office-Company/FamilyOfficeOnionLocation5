@@ -8,7 +8,7 @@
     "tor",
     "hidden-service"
   ],
-  "homepage": "https://github.com/Family-Office-Company/FamilyOfficeOnionLocation5",
+  "homepage": "https://github.com/FamilyOfficeOrg/FamilyOfficeOnionLocation5",
   "readme": "README.md",
   "version": "1.0.0",
   "license": "MIT",
@@ -16,7 +16,7 @@
     {
       "name": "Family Office",
       "email": "contact@family-office.holdings",
-      "homepage": "https://github.com/Family-Office-Company",
+      "homepage": "https://github.com/FamilyOfficeOrg",
       "role": "Manufacturer"
     }
   ],
@@ -26,6 +26,6 @@
     "symplify/easy-coding-standard": "^9.4"
   },
   "support": {
-    "issues": "https://github.com/Family-Office-Company/FamilyOfficeOnionLocation5/issues"
+    "issues": "https://github.com/FamilyOfficeOrg/FamilyOfficeOnionLocation5/issues"
   }
 }
